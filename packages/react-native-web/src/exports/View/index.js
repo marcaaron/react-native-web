@@ -16,9 +16,9 @@ import createElement from '../createElement';
 import css from '../StyleSheet/css';
 import pick from '../../modules/pick';
 import setAndForwardRef from '../../modules/setAndForwardRef';
-import useElementLayout from '../../hooks/useElementLayout';
-import usePlatformMethods from '../../hooks/usePlatformMethods';
-import useResponderEvents from '../../hooks/useResponderEvents';
+import useElementLayout from '../../modules/useElementLayout';
+import usePlatformMethods from '../../modules/usePlatformMethods';
+import useResponderEvents from '../../modules/useResponderEvents';
 import StyleSheet from '../StyleSheet';
 import TextAncestorContext from '../Text/TextAncestorContext';
 
